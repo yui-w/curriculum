@@ -11,7 +11,7 @@ public class Task extends Calculator {
         // 尚、「どのクラスから呼び出しているか」を明確にするため、plus()には呼び出し元のキーワードを付与すること。
         System.out.println("plusメソッドの引数が一つの場合:" + plus(10));
         System.out.println("plusメソッドの引数が二つの場合:" + plus(10, 20));
-        System.out.println("plusメソッドの引数が三つの場合:" + plus(30, 30));
+        System.out.println("plusメソッドの引数が三つの場合:" + plus(10, 20, 30));
 
     }
 }
